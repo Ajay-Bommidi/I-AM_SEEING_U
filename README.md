@@ -16,29 +16,3 @@ Disclaimer:
 By using this project, you acknowledge that the creator is not responsible for any damages, legal issues, or consequences arising from its misuse. Always ensure that your cybersecurity practices remain ethical, legal, and within the boundaries of your testing environment.
 
 
-
-Quick Start Guide: Silent, Automated Keylogger
-Download & Extract Files
-Download the keylogger from GitHub and extract the files to a folder on your computer.
-
-Install Python & Dependencies
-
-Install Python.
-Open Command Prompt/Terminal and run:
-Copy code
-pip install pynput
-Run the Keylogger
-Navigate to the folder containing the script and run:
-
-Copy code
-python keylogger.py
-Monitor Keystrokes
-
-Keystrokes are logged in:
-makefile
-Copy code
-C:\Users\<YourUsername>\AppData\Roaming\Keylogs
-Open the log file with any text editor to view captured data.
-Stop the Keylogger
-Close the terminal or use Task Manager to stop the Python process.
-
